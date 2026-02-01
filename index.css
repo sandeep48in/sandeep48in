@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-in {
+    animation-duration: 300ms;
+    animation-fill-mode: both;
+  }
+  .fade-in {
+    animation-name: fadeIn;
+  }
+  .slide-in-from-bottom-5 {
+    --tw-enter-translate-y: 1.25rem;
+    animation-name: slideIn;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes slideIn {
+    from { transform: translateY(var(--tw-enter-translate-y, 0)); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+}

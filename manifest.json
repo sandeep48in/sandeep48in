@@ -1,0 +1,20 @@
+{
+  "short_name": "ExpenseHub",
+  "name": "Sheet Expense Hub",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2344/2344132.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2344/2344132.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#030712",
+  "background_color": "#030712"
+}
